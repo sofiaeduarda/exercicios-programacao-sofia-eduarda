@@ -1,9 +1,8 @@
-# Faça um programa que peça dois números e imprima o maior deles.
+# Faça um programa que peça um valor e mostre na tela se o valor é positivo ou negativo.
 # Desenvolvido por Sofia Eduarda
 
-numero1 = int(input("Digite o seu primeiro número: "))
-numero2 = int(input("Digite o seu segundo número: "))
-if numero1 > numero2:
-    print(f"{numero1} é o maior.")
+numero = int(input("Digite um número: "))
+if numero > 0:
+    print(f"O número {numero} é positivo.")
 else:
-    print(f"{numero2} é o maior")
+    print(f"O número {numero} é negativo.")
