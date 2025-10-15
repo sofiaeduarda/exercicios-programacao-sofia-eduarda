@@ -1,10 +1,11 @@
-# Desenvolva um gerador de tabuada, capaz de gerar a tabuada de qualquer número inteiro entre 1 a 10. O usuário deve informar de qual numero ele deseja ver a tabuada. A saída deve ser conforme o exemplo abaixo:
+# Faça um programa que leia um nome de usuário e a sua senha e não aceite a senha igual ao nome do usuário, mostrando uma mensagem de erro e voltando a pedir as informações.
 # Desenvolvido por Sofia Eduarda
 
-numero = int(input("Digite um número para ver a tabuada dele: "))
-if 1 <= numero <= 10:
-    print(f"\nTabuada de {numero}: ")
-    for i in range(1, 11):
-        print(f"{numero} X {i} = {numero * i}")
-else:
-    print("Número inválido! Somente entre 1 e 10.")
+while True:
+    usuario = input("Digite o nome de usuário: ")
+    senha = input("Digite a sua senha: ")
+    if senha == usuario:
+        print("Erro: a senha não pode ser igual ao usuário. Tente denovo.\n")
+    else:
+        print("Cadastro realizado com sucesso!")
+        break
