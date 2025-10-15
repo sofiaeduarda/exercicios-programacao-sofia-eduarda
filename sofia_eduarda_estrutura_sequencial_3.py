@@ -1,5 +1,7 @@
-# Faça um programa que peça um número e então mostre a mensagem "O número informado foi [número]":
+# Faça um programa que peça dois números e imprima a soma:
 # Desenvolvido por Sofia Eduarda
 
-numero = int(input("Insira um número: "))
-print(f"O número informado foi: {numero}")
+numero1 = int(input("Insira um número: "))
+numero2 = int(input("Insira outro número: "))
+soma = numero1 + numero2
+print(f"A soma entre {numero1} + {numero2} é igual a {soma}")
