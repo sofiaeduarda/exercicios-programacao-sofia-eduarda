@@ -1,8 +1,0 @@
-horas = 0
-
-while True:
-    horas += 50  # simula 50 horas por ciclo
-    print(f"Horas de operação: {horas}")
-    if horas >= 500:
-        print("⚠️ ALERTA: Manutenção necessária!")
-        break
