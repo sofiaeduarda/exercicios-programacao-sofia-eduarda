@@ -1,9 +1,0 @@
-producao = int(input("Digite a quantidade produzida hoje: "))
-meta = 1000
-
-if producao >= meta:
-    print("Meta atingida! Parabéns!")
-else:
-    faltam = meta - producao
-    print(f"Faltam {faltam} unidades para atingir a meta.")
-    
