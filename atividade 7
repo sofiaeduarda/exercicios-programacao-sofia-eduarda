@@ -1,0 +1,12 @@
+real = float(input("Digite a produção real: "))
+esperada = float(input("Digite a produção esperada: "))
+
+eficiencia = (real / esperada) * 100
+print(f"Eficiência: {eficiencia:.2f}%")
+
+if eficiencia >= 90:
+    print("Classificação: Excelente")
+elif eficiencia >= 70:
+    print("Classificação: Boa")
+else:
+    print("Classificação: Precisa melhorar")
