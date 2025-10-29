@@ -1,6 +1,0 @@
-defeitos = int(input("Digite o número de defeitos encontrados: "))
-
-if defeitos <= 2:
-    print("Peça APROVADA.")
-else:
-    print("Peça REPROVADA.")
