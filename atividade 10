@@ -1,0 +1,7 @@
+valor = float(input("Digite o valor do sensor: "))
+
+if 1 <= valor <= 100:
+    print("Sensor OK")
+else:
+    print("Sensor com problema")
+
